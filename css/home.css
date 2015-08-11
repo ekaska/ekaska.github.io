@@ -1,0 +1,401 @@
+#home{
+    overflow-x: hidden;
+}
+
+#homeHeroSection{
+    background-color: #55acee;
+    width: 100%;
+    position: relative;
+    display: block;
+    min-height: 1000px;
+}
+
+#heroContents{
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 5%;
+    min-height: 200px;
+    padding-top: 200px;
+    z-index: 2;
+}
+
+#heroContentsWrapper{
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    width: 50%;
+    float: left
+}
+
+#heroImgRight{
+    width: 50%;
+    float: left;
+    display: inline-block;
+    min-height: 100px;
+}
+
+#homeH1{
+    max-width: 440px;
+    color: white;
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+#homeH2{
+    font-weight: 400;
+    color: white;
+    font-size: 15px;
+    max-width: 440px;
+    line-height: 32px;
+    padding-top: 20px;
+}
+
+#signUpCont{
+    display: block;
+    padding-top: 20px;
+}
+
+#signUpBtn{
+    width: 180px;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    background: #8272fa;
+    border-bottom: 4px solid #6b5de2;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
+
+#signUpBtn:hover{
+    opacity: 1;
+}
+
+#heroImg{
+    position: absolute;
+    z-index: 1;
+    margin-top: -50px;
+}
+
+@media (min-width:768px){
+    #heroImg{
+        width: 500px;
+    }
+}
+
+@media (min-width: 1000px){
+    #heroImg{
+        width: 500px;
+    }
+}
+
+@media (min-width: 1200px){
+    #heroImg{
+        width: 500px;
+    }
+}
+
+
+#browserHomeCont{
+    width: 80%;
+    max-width: 800px;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    padding-top: 240px;
+}
+
+
+#broswerHome{
+    width: 100%;
+}
+
+
+#whyReciprocall{
+    width: 100%;
+    min-height: 700px;
+    background: url(/img/whybg.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#whyCont{
+    max-width: 1000px;
+    padding: 5%;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    min-height: 200px;
+    padding-top: 200px; 
+}
+
+#whyContText{
+    width: 40%;
+    position: relative;
+    display: inline-block;
+    float: left;
+    padding-right: 10%;
+    min-height: 200px;
+}
+
+#whyContText h2{
+    font-size: 14px;
+    color: #55acee;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#whyContText h3{
+    font-size: 25px;
+    color: #55acee;
+    padding-bottom: 20px;
+    font-weight: 200;
+}
+
+#whyContText p{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+
+#whyIMGCont{
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+#whyIMG{
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    max-width: 300px;
+    margin-top: -110px;
+}
+
+#firstDivider{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #295786;
+}
+
+#firstDivider h2{
+    color: #d7e3f0;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+#firstDivider p{
+    max-width: 600px;
+    padding: 10px 5%;
+    text-align: center;
+    margin: 0px auto;
+    color: white;
+    font-weight: 100;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+#howItWorksSection{
+    width: 100%;
+    min-height: 600px;
+    background: #fff;
+    padding-bottom: 140px;
+}
+
+#worksIcon{
+    width: 40px;
+    margin: 0px auto;
+    display: block;
+    padding-top: 40px;
+}
+
+#howItWorksSectionH2{
+    font-weight: 300;
+    text-align: center;
+    padding: 10px 5%;
+    font-size: 32px;
+    
+}
+
+#howItWorksSectionH3{
+    font-weight: 300;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 15px;
+    color: #92969c;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#howItWorksSectionP{
+    font-size: 14px;
+    max-width: 600px;
+    text-align: center;
+    margin: 0px auto;
+    color: #92969c;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+#howItWorksCont{
+    max-width: 1000px;
+    width 90%;
+    margin: 0px auto;
+    display: block;
+    position: relative;
+    min-height: 300px;
+    padding: 60px 5%;
+}
+
+.sectionGroups{
+    width: 100%;
+    min-height: 100px;
+    position: relative;
+    display: block;
+}
+
+.leftTextSection{
+    width:50%;
+    position: relative;
+    display: inline-block;
+    float: left;
+    min-height:100px;
+    padding-top: 50px;
+    
+}
+
+.textIcon{
+    width: 60px;
+    height: auto;
+    display: inline-block;
+    padding-right: 20px;
+    float: left;
+}
+
+.howTextCont{
+    width: calc(100% - 80px);
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+.textI{
+    width: 50px;
+}
+
+.howTextCont h3{
+    text-align: left;
+    font-weight: 300;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.howTextCont p{
+    color:#92969c;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+.rightSextSection{
+    width:50%;
+    position: relative;
+    display: inline-block;
+    float: left;
+    min-height:100px;
+}
+
+#rightSImgProfile{
+    margin: 0px auto;
+    display: block;
+    width:160px;
+    padding-top: 20px;
+}
+
+#rightSImgCard{
+    margin: 0px auto;
+    display: block;
+    width:200px;
+}
+
+#rightSImgProfileC{
+    margin: 0px auto;
+    display: block;
+    width: 280px;
+}
+
+
+#section2{
+    margin-top: 190px;
+}
+
+#textSection{
+    width: 100%;
+    height: 260px;
+    position: relative;
+     background: url(/img/test.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#testCont{
+    width: 90%;
+    max-width: 1000px;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    padding: 40px 5%;
+    
+}
+
+#textContainer{
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+#textContainer p{
+    color: white;
+    font-size: 16px;
+    padding-top: 60px;
+    line-height: 24px;
+}
+
+#emailLink{
+    color: #3a90f4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

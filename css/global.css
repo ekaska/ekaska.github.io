@@ -1,0 +1,51 @@
+html{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header{
+    width: 94%;
+    margin-left: 3%;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+
+#mainLogo{
+    width: 200px;
+    display: inline-block;
+    float: left;
+}
+
+#headerLinks{
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+.headerLink{
+    display: inline-block;
+    color: #fff;
+    opacity: 0.8;
+    float: right;
+    padding: 20px;
+    margin-left: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.headerLink:hover{
+    opacity: 1;
+}
+
